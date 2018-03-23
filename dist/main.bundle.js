@@ -11066,10 +11066,7 @@ function addProduct(product) {
         dataType: 'json',
         method: 'POST',
         data: product
-    }).done(function (resp) {
-        console.log('done');
-        console.log(resp);
-    }).fail(function (err) {
+    }).done(function (resp) {}).fail(function (err) {
         console.log('error');
     });
 }

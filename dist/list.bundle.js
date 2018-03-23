@@ -11242,27 +11242,7 @@ var addComment = function addComment(comm, el) {
 
 var modifyObject = function modifyObject(id) {
 
-    // if(!name.value) {
-    //     alert("Insert Name!");
-    //     return 0;
-    // }
-    // if(!category.value) {
-    //     alert("Insert Category!");
-    //     return 0;
-    // }
-    // if(!price.value) {
-    //     alert("Insert Price!");
-    //     return 0;
-    // }
-    // if(!desc.value) {
-    //     alert("Insert Description!");
-    //     return 0;
-    // }
-    // if(!icon.querySelector('input:checked')) {
-    //     alert("Choose Icon!");
-    //     return 0;
-    // }
-
+    // tworzenie nowego obiektu
     var newProduct = {
         name: name.value,
         category: category.value,
