@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <a class="formLink" href="./index.html">
+        <input type="button" value="Create a new product">
+    </a>
+
+    <div class="modifyBackground">
+        <div class="modifyWindow">
+            <h2>Set new data</h2>
+            <div class="formsWrapper">
+                <form class="form form--left">
+                    <label for="name">Name: </label>
+                    <label for="category">Category: </label>
+                    <label for="price">Price: </label>
+                    <label for="description">Description: </label>
+                </form>
+                <form class="form form--right">
+                    <input type="text" id="name">
+                    <input type="text" id="category">
+                    <input type="number" id="price">
+                    <textarea id="description" cols="30" rows="3"></textarea>
+                </form>
+            </div>
+
+            <form class="icons" id="icons">
+                <legend>Pick an icon: </legend>
+                <div>
+                    <input type="radio" name="icon" value="38520.svg">
+                    <img src="./../images/38520.svg" alt="">
+                </div>
+                <div>
+                    <input type="radio" name="icon" value="81847.svg">
+                    <img src="./../images/81847.svg" alt="">
+                </div>
+                <div>
+                    <input type="radio" name="icon" value="23315.svg">
+                    <img src="./../images/23315.svg" alt="">
+                </div>
+            </form>
+            <input type="button" value="DONE" id="modificationDone">
+        </div>
+    </div>
+
+    <h1>list of our products</h1>
+
+    <div class="filters">
+        <legend>Filters</legend>
+        <label for="categoryFilter">Filter by category: <input type="text" name="categoryFilter" id="categoryFilter"></label>
+        <label for="nameFilter">Filter by name: <input type="text" name="nameFilter" id="nameFilter"></label>
+        <label for="exactNameFilter">Filter by name (exact): <input type="text" name="exactNameFilter" id="exactNameFilter"></label>
+    </div>
+
+    <div class="productsList">
+    </div>
+</body>
+
+</html>

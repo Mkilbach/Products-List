@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "name": "a",
+      "category": "catt5",
+      "price": "123214",
+      "description": "dsfafzxdf",
+      "icon": "23315.svg",
+      "id": 1
+    },
+    {
+      "name": "name3",
+      "category": "cat2",
+      "price": "123214",
+      "description": "dsfafzxdf",
+      "icon": "38520.svg",
+      "id": 3
+    },
+    {
+      "name": "boiiiii",
+      "category": "Box",
+      "price": "123",
+      "description": "das",
+      "icon": "81847.svg",
+      "id": 4
+    },
+    {
+      "name": "sadafsd",
+      "category": "box",
+      "price": "12445",
+      "description": "adsafas",
+      "icon": "81847.svg",
+      "id": 5
+    },
+    {
+      "name": "name",
+      "category": "asd",
+      "price": "12345",
+      "description": "4w4",
+      "icon": "38520.svg",
+      "id": 6
+    },
+    {
+      "name": "asd",
+      "category": "fafs",
+      "price": "12",
+      "description": "dasd",
+      "icon": "38520.svg",
+      "id": 7
+    }
+  ]
+}
