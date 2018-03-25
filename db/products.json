@@ -6,7 +6,8 @@
       "price": "123214",
       "description": "dsfafzxdf",
       "icon": "23315.svg",
-      "id": 1
+      "id": 1,
+      "comment": ""
     },
     {
       "name": "name3",
@@ -47,6 +48,14 @@
       "description": "dasd",
       "icon": "38520.svg",
       "id": 7
+    },
+    {
+      "name": "asdasdasd",
+      "category": "fasdaf",
+      "price": "11213",
+      "description": "asfasd",
+      "icon": "81847.svg",
+      "id": 8
     }
   ]
 }
